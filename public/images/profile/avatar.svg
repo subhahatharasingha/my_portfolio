@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <radialGradient id="avatarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="avatarBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Background -->
+  <rect width="100%" height="100%" fill="#030712"/>
+
+  <!-- Radial Glow -->
+  <circle cx="200" cy="200" r="180" fill="url(#avatarGlow)"/>
+
+  <!-- Inner border ring -->
+  <circle cx="200" cy="200" r="140" stroke="url(#avatarBorder)" stroke-width="2" stroke-dasharray="8 4"/>
+
+  <!-- Stylized Developer Figure -->
+  <!-- Head -->
+  <circle cx="200" cy="150" r="45" fill="url(#bodyGrad)"/>
+  
+  <!-- Glasses -->
+  <rect x="170" y="140" width="25" height="15" rx="4" stroke="#ffffff" stroke-width="3" fill="none"/>
+  <rect x="205" y="140" width="25" height="15" rx="4" stroke="#ffffff" stroke-width="3" fill="none"/>
+  <line x1="195" y1="147" x2="205" y2="147" stroke="#ffffff" stroke-width="3"/>
+  <line x1="165" y1="147" x2="170" y2="147" stroke="#ffffff" stroke-width="2"/>
+  <line x1="230" y1="147" x2="235" y2="147" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Body/Shoulders -->
+  <path d="M120 280C120 235.817 155.817 210 200 210C244.183 210 280 235.817 280 280V320H120V280Z" fill="url(#bodyGrad)" opacity="0.95"/>
+
+  <!-- Laptop Screen representation -->
+  <rect x="150" y="270" width="100" height="60" rx="6" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <!-- Code lines on laptop -->
+  <rect x="160" y="280" width="50" height="4" rx="2" fill="#a855f7"/>
+  <rect x="160" y="290" width="70" height="4" rx="2" fill="#3b82f6"/>
+  <rect x="160" y="300" width="40" height="4" rx="2" fill="#10b981"/>
+  <circle cx="235" cy="282" r="3" fill="#ef4444"/>
+
+  <!-- Developer code tag overlay -->
+  <text x="200" y="70" font-family="monospace" font-size="16" fill="#64748b" text-anchor="middle" font-weight="bold">&lt;DEVELOPER /&gt;</text>
+</svg>
