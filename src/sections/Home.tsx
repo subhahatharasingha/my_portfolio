@@ -109,7 +109,7 @@ export const Home: React.FC = () => {
                     className="w-full h-full object-cover rounded-full"
                     onError={(e) => {
                       // fallback to standard avatar vector style in SVG
-                      (e.target as HTMLImageElement).src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" style="background:%23030712;"><circle cx="100" cy="80" r="40" fill="%23a855f7" opacity="0.6"/><path d="M40 160c0-30 25-50 60-50s60 20 60 50v20H40v-20z" fill="%23a855f7" opacity="0.6"/><text x="50%" y="150" dominant-baseline="middle" text-anchor="middle" fill="%2394a3b8" font-family="sans-serif" font-weight="bold" font-size="10">Alex Johnson Avatar</text></svg>';
+                      (e.target as HTMLImageElement).src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" style="background:%23030712;"><circle cx="100" cy="80" r="40" fill="%23a855f7" opacity="0.6"/><path d="M40 160c0-30 25-50 60-50s60 20 60 50v20H40v-20z" fill="%23a855f7" opacity="0.6"/><text x="50%" y="150" dominant-baseline="middle" text-anchor="middle" fill="%2394a3b8" font-family="sans-serif" font-weight="bold" font-size="10">Subhanya Kalpanee Avatar</text></svg>';
                     }}
                   />
                   {/* Decorative corner lines */}
